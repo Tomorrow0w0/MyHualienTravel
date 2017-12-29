@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E57EEA0C1FF6432D00498619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA0B1FF6432D00498619 /* AppDelegate.swift */; };
+		E57EEA0E1FF6432D00498619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA0D1FF6432D00498619 /* ViewController.swift */; };
+		E57EEA111FF6432D00498619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA0F1FF6432D00498619 /* Main.storyboard */; };
+		E57EEA131FF6432D00498619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA121FF6432D00498619 /* Assets.xcassets */; };
+		E57EEA161FF6432D00498619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */; };
+		E57EEA211FF6432D00498619 /* MyHualienTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA201FF6432D00498619 /* MyHualienTravelTests.swift */; };
+		E57EEA2C1FF6432E00498619 /* MyHualienTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E57EEA1D1FF6432D00498619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E57EEA001FF6432D00498619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57EEA071FF6432D00498619;
+			remoteInfo = MyHualienTravel;
+		};
+		E57EEA281FF6432D00498619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E57EEA001FF6432D00498619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57EEA071FF6432D00498619;
+			remoteInfo = MyHualienTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E57EEA081FF6432D00498619 /* MyHualienTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHualienTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EEA0B1FF6432D00498619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E57EEA0D1FF6432D00498619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E57EEA101FF6432D00498619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E57EEA121FF6432D00498619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E57EEA151FF6432D00498619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E57EEA171FF6432D00498619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57EEA1C1FF6432D00498619 /* MyHualienTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHualienTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EEA201FF6432D00498619 /* MyHualienTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHualienTravelTests.swift; sourceTree = "<group>"; };
+		E57EEA221FF6432D00498619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57EEA271FF6432D00498619 /* MyHualienTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHualienTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHualienTravelUITests.swift; sourceTree = "<group>"; };
+		E57EEA2D1FF6432E00498619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E57EEA051FF6432D00498619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EEA191FF6432D00498619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EEA241FF6432D00498619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E57EE9FF1FF6432D00498619 = {
+			isa = PBXGroup;
+			children = (
+				E57EEA0A1FF6432D00498619 /* MyHualienTravel */,
+				E57EEA1F1FF6432D00498619 /* MyHualienTravelTests */,
+				E57EEA2A1FF6432D00498619 /* MyHualienTravelUITests */,
+				E57EEA091FF6432D00498619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E57EEA091FF6432D00498619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57EEA081FF6432D00498619 /* MyHualienTravel.app */,
+				E57EEA1C1FF6432D00498619 /* MyHualienTravelTests.xctest */,
+				E57EEA271FF6432D00498619 /* MyHualienTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E57EEA0A1FF6432D00498619 /* MyHualienTravel */ = {
+			isa = PBXGroup;
+			children = (
+				E57EEA0B1FF6432D00498619 /* AppDelegate.swift */,
+				E57EEA0D1FF6432D00498619 /* ViewController.swift */,
+				E57EEA0F1FF6432D00498619 /* Main.storyboard */,
+				E57EEA121FF6432D00498619 /* Assets.xcassets */,
+				E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */,
+				E57EEA171FF6432D00498619 /* Info.plist */,
+			);
+			path = MyHualienTravel;
+			sourceTree = "<group>";
+		};
+		E57EEA1F1FF6432D00498619 /* MyHualienTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E57EEA201FF6432D00498619 /* MyHualienTravelTests.swift */,
+				E57EEA221FF6432D00498619 /* Info.plist */,
+			);
+			path = MyHualienTravelTests;
+			sourceTree = "<group>";
+		};
+		E57EEA2A1FF6432D00498619 /* MyHualienTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */,
+				E57EEA2D1FF6432E00498619 /* Info.plist */,
+			);
+			path = MyHualienTravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E57EEA071FF6432D00498619 /* MyHualienTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57EEA301FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravel" */;
+			buildPhases = (
+				E57EEA041FF6432D00498619 /* Sources */,
+				E57EEA051FF6432D00498619 /* Frameworks */,
+				E57EEA061FF6432D00498619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHualienTravel;
+			productName = MyHualienTravel;
+			productReference = E57EEA081FF6432D00498619 /* MyHualienTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E57EEA1B1FF6432D00498619 /* MyHualienTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57EEA331FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravelTests" */;
+			buildPhases = (
+				E57EEA181FF6432D00498619 /* Sources */,
+				E57EEA191FF6432D00498619 /* Frameworks */,
+				E57EEA1A1FF6432D00498619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E57EEA1E1FF6432D00498619 /* PBXTargetDependency */,
+			);
+			name = MyHualienTravelTests;
+			productName = MyHualienTravelTests;
+			productReference = E57EEA1C1FF6432D00498619 /* MyHualienTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E57EEA261FF6432D00498619 /* MyHualienTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57EEA361FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravelUITests" */;
+			buildPhases = (
+				E57EEA231FF6432D00498619 /* Sources */,
+				E57EEA241FF6432D00498619 /* Frameworks */,
+				E57EEA251FF6432D00498619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E57EEA291FF6432D00498619 /* PBXTargetDependency */,
+			);
+			name = MyHualienTravelUITests;
+			productName = MyHualienTravelUITests;
+			productReference = E57EEA271FF6432D00498619 /* MyHualienTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E57EEA001FF6432D00498619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NQU110410545;
+				TargetAttributes = {
+					E57EEA071FF6432D00498619 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					E57EEA1B1FF6432D00498619 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E57EEA071FF6432D00498619;
+					};
+					E57EEA261FF6432D00498619 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E57EEA071FF6432D00498619;
+					};
+				};
+			};
+			buildConfigurationList = E57EEA031FF6432D00498619 /* Build configuration list for PBXProject "MyHualienTravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E57EE9FF1FF6432D00498619;
+			productRefGroup = E57EEA091FF6432D00498619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E57EEA071FF6432D00498619 /* MyHualienTravel */,
+				E57EEA1B1FF6432D00498619 /* MyHualienTravelTests */,
+				E57EEA261FF6432D00498619 /* MyHualienTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E57EEA061FF6432D00498619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EEA161FF6432D00498619 /* LaunchScreen.storyboard in Resources */,
+				E57EEA131FF6432D00498619 /* Assets.xcassets in Resources */,
+				E57EEA111FF6432D00498619 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EEA1A1FF6432D00498619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EEA251FF6432D00498619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E57EEA041FF6432D00498619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EEA0E1FF6432D00498619 /* ViewController.swift in Sources */,
+				E57EEA0C1FF6432D00498619 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EEA181FF6432D00498619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EEA211FF6432D00498619 /* MyHualienTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EEA231FF6432D00498619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57EEA2C1FF6432E00498619 /* MyHualienTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E57EEA1E1FF6432D00498619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E57EEA071FF6432D00498619 /* MyHualienTravel */;
+			targetProxy = E57EEA1D1FF6432D00498619 /* PBXContainerItemProxy */;
+		};
+		E57EEA291FF6432D00498619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E57EEA071FF6432D00498619 /* MyHualienTravel */;
+			targetProxy = E57EEA281FF6432D00498619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E57EEA0F1FF6432D00498619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57EEA101FF6432D00498619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57EEA151FF6432D00498619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E57EEA2E1FF6432E00498619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E57EEA2F1FF6432E00498619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E57EEA311FF6432E00498619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHualienTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E57EEA321FF6432E00498619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHualienTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E57EEA341FF6432E00498619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyHualienTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHualienTravel.app/MyHualienTravel";
+			};
+			name = Debug;
+		};
+		E57EEA351FF6432E00498619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyHualienTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHualienTravel.app/MyHualienTravel";
+			};
+			name = Release;
+		};
+		E57EEA371FF6432E00498619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MyHualienTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyHualienTravel;
+			};
+			name = Debug;
+		};
+		E57EEA381FF6432E00498619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MyHualienTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyHualienTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E57EEA031FF6432D00498619 /* Build configuration list for PBXProject "MyHualienTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EEA2E1FF6432E00498619 /* Debug */,
+				E57EEA2F1FF6432E00498619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57EEA301FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EEA311FF6432E00498619 /* Debug */,
+				E57EEA321FF6432E00498619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E57EEA331FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EEA341FF6432E00498619 /* Debug */,
+				E57EEA351FF6432E00498619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E57EEA361FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57EEA371FF6432E00498619 /* Debug */,
+				E57EEA381FF6432E00498619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E57EEA001FF6432D00498619 /* Project object */;
+}
