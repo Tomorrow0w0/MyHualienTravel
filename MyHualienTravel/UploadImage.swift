@@ -92,7 +92,7 @@ extension  UploadImage: UIImagePickerControllerDelegate, UINavigationControllerD
         // 當判斷有 selectedImage 時，我們會在 if 判斷式裡將圖片上傳
         if let selectedImage = selectedImageFromPicker {
             
-            let storageRef = FIRStorage.storage().reference().child("AppCodaFireUpload").child("\(uniqueString).png")
+            let storageRef = FIRStorage.storage().reference().child("images").child("\(uniqueString).png")
             
             if let uploadData = UIImagePNGRepresentation(selectedImage) {
                 // 這行就是 FirebaseStroge 關鍵的存取方法。
@@ -111,7 +111,7 @@ extension  UploadImage: UIImagePickerControllerDelegate, UINavigationControllerD
                         // 我們可以 print 出來看看這個連結事不是我們剛剛所上傳的照片。
                         print("Photo Url: \(uploadImageUrl)")
                         
-                        let databaseRef = Database.database().reference().child("AppCodaFireUpload").child(uniqueString)
+                        let databaseRef = Database.database().reference().child("images").child(uniqueString)
                         
                         databaseRef.setValue(uploadImageUrl, withCompletionBlock: { (error, dataRef) in
                             
