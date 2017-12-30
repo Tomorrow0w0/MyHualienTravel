@@ -7,19 +7,18 @@
 //
 
 import UIKit
-import Firebase
 import FirebaseDatabase
 
 private let reuseIdentifier = "Cell"
 
-class  ImageGallery: UICollectionViewController {
+class ImageGallery: UICollectionViewController {
     
     var fireUploadDic: [String:Any]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let databaseRef = Database.database().reference()
+        let databaseRef = Database.database().reference().child("images")
         
         databaseRef.observe(.value, with: { [weak self] (snapshot) in
             
@@ -85,4 +84,5 @@ class  ImageGallery: UICollectionViewController {
     }
     
 }
+
 

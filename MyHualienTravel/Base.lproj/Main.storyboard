@@ -128,7 +128,7 @@
         <scene sceneID="dtO-8g-nQk">
             <objects>
                 <collectionViewController id="Qwa-QT-oOl" customClass="ImageGallery" customModule="MyHualienTravel" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="xeE-yM-f8X">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="xeE-yM-f8X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -158,7 +158,7 @@
                                     <constraint firstAttribute="bottom" secondItem="EKu-aj-kqp" secondAttribute="bottom" id="o6w-6L-7vn"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="fireImageView" destination="EKu-aj-kqp" id="kQh-Tf-cdY"/>
+                                    <outlet property="fireImageView" destination="EKu-aj-kqp" id="TYa-rj-r4Y"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
