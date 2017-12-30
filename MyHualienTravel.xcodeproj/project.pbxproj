@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D59A9F931F6AD233B383A7DA /* Pods_MyHualienTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A94F2C136F01BA2412919 /* Pods_MyHualienTravel.framework */; };
+		E51405211FF780D500075AA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E51405201FF780D500075AA5 /* GoogleService-Info.plist */; };
 		E54F71A91FF68D070086F41D /* FbLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F71A81FF68D070086F41D /* FbLogIn.swift */; };
 		E561F13F1FF742A700C804B8 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561F13E1FF742A700C804B8 /* UploadImage.swift */; };
 		E5694DB71FF748220099FBE3 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5694DB61FF748220099FBE3 /* ImageGallery.swift */; };
@@ -17,7 +18,8 @@
 		E57EEA161FF6432D00498619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */; };
 		E57EEA211FF6432D00498619 /* MyHualienTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA201FF6432D00498619 /* MyHualienTravelTests.swift */; };
 		E57EEA2C1FF6432E00498619 /* MyHualienTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */; };
-		E5F3AE631FF67CFA0034F63C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AE621FF67CFA0034F63C /* GoogleService-Info.plist */; };
+		E5B619311FF76ACE006D435A /* ImageGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B619301FF76ACE006D435A /* ImageGalleryCell.swift */; };
+		E5F63E181FF79D2800D82CFF /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F63E171FF79D2800D82CFF /* FirebaseStorage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 		8F9292094C88F3EDA88AD98F /* Pods-MyHualienTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHualienTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel.release.xcconfig"; sourceTree = "<group>"; };
 		939173B6A6504E91B8E4975E /* Pods-MyHualienTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHualienTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4A94F2C136F01BA2412919 /* Pods_MyHualienTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHualienTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51405201FF780D500075AA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E54F71A81FF68D070086F41D /* FbLogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbLogIn.swift; sourceTree = "<group>"; };
 		E561F13E1FF742A700C804B8 /* UploadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
 		E5694DB61FF748220099FBE3 /* ImageGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
@@ -56,7 +59,9 @@
 		E57EEA271FF6432D00498619 /* MyHualienTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHualienTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHualienTravelUITests.swift; sourceTree = "<group>"; };
 		E57EEA2D1FF6432E00498619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5F3AE621FF67CFA0034F63C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5B619301FF76ACE006D435A /* ImageGalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryCell.swift; sourceTree = "<group>"; };
+		E5F63E151FF79D0E00D82CFF /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		E5F63E171FF79D2800D82CFF /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Pods/FirebaseStorage/Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F63E181FF79D2800D82CFF /* FirebaseStorage.framework in Frameworks */,
 				D59A9F931F6AD233B383A7DA /* Pods_MyHualienTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +103,8 @@
 		8CF48000B634BC6AF8880562 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5F63E171FF79D2800D82CFF /* FirebaseStorage.framework */,
+				E5F63E151FF79D0E00D82CFF /* Pods */,
 				CC4A94F2C136F01BA2412919 /* Pods_MyHualienTravel.framework */,
 			);
 			name = Frameworks;
@@ -131,11 +139,12 @@
 				E54F71A81FF68D070086F41D /* FbLogIn.swift */,
 				E561F13E1FF742A700C804B8 /* UploadImage.swift */,
 				E5694DB61FF748220099FBE3 /* ImageGallery.swift */,
+				E5B619301FF76ACE006D435A /* ImageGalleryCell.swift */,
 				E57EEA0F1FF6432D00498619 /* Main.storyboard */,
 				E57EEA121FF6432D00498619 /* Assets.xcassets */,
 				E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */,
 				E57EEA171FF6432D00498619 /* Info.plist */,
-				E5F3AE621FF67CFA0034F63C /* GoogleService-Info.plist */,
+				E51405201FF780D500075AA5 /* GoogleService-Info.plist */,
 			);
 			path = MyHualienTravel;
 			sourceTree = "<group>";
@@ -269,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E57EEA161FF6432D00498619 /* LaunchScreen.storyboard in Resources */,
-				E5F3AE631FF67CFA0034F63C /* GoogleService-Info.plist in Resources */,
+				E51405211FF780D500075AA5 /* GoogleService-Info.plist in Resources */,
 				E57EEA131FF6432D00498619 /* Assets.xcassets in Resources */,
 				E57EEA111FF6432D00498619 /* Main.storyboard in Resources */,
 			);
@@ -366,6 +375,7 @@
 				E5694DB71FF748220099FBE3 /* ImageGallery.swift in Sources */,
 				E57EEA0C1FF6432D00498619 /* AppDelegate.swift in Sources */,
 				E54F71A91FF68D070086F41D /* FbLogIn.swift in Sources */,
+				E5B619311FF76ACE006D435A /* ImageGalleryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,11 +530,17 @@
 			baseConfigurationReference = 939173B6A6504E91B8E4975E /* Pods-MyHualienTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FirebaseStorage/Frameworks/frameworks",
+				);
 				INFOPLIST_FILE = MyHualienTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -533,11 +549,17 @@
 			baseConfigurationReference = 8F9292094C88F3EDA88AD98F /* Pods-MyHualienTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FirebaseStorage/Frameworks/frameworks",
+				);
 				INFOPLIST_FILE = MyHualienTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tomorrow.MyHualienTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

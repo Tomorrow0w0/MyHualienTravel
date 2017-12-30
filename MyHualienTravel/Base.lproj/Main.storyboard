@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Rdo-EX-bc8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -35,7 +35,7 @@
                                 </state>
                                 <connections>
                                     <action selector="FbLoginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASK-GB-J5Z"/>
-                                    <action selector="FbLogoutBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dqu-4K-xXY"/>
+                                    <segue destination="EA3-do-Xj4" kind="show" identifier="GoUploadImage" id="V6Y-ua-BMl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtd-r5-3fm">
@@ -62,14 +62,10 @@
                             <constraint firstItem="Fgb-FJ-fNn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lpt-MS-v80"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="qhn-WI-OVC"/>
-                    <connections>
-                        <segue destination="6w7-De-zlu" kind="show" identifier="GoUploadImage" id="rqq-mi-09Z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="737" y="124"/>
+            <point key="canvasLocation" x="2372" y="124"/>
         </scene>
         <!--Upload Image-->
         <scene sceneID="Oc3-Hu-64z">
@@ -91,9 +87,12 @@
                                     <constraint firstAttribute="width" constant="343" id="UF6-ff-UWx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="圖片集">
+                                <state key="normal" title="上傳圖片">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="uploadBtnAction:" destination="6w7-De-zlu" eventType="touchUpInside" id="ZgR-GI-kwh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAd-8C-RGD">
                                 <rect key="frame" x="16" y="460" width="343" height="53"/>
@@ -103,7 +102,7 @@
                                     <constraint firstAttribute="width" constant="343" id="cbd-Sf-40B"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="上傳圖片">
+                                <state key="normal" title="圖片集">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -123,31 +122,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tv2-Il-kXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464.8" y="123.68815592203899"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="BiQ-Hn-vjD">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rdo-EX-bc8" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FaL-dJ-2Ev">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gPI-mx-b5J"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vMf-m0-p53" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-146" y="124"/>
+            <point key="canvasLocation" x="4282.3999999999996" y="123.68815592203899"/>
         </scene>
         <!--Image Gallery-->
         <scene sceneID="dtO-8g-nQk">
             <objects>
                 <collectionViewController id="Qwa-QT-oOl" customClass="ImageGallery" customModule="MyHualienTravel" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="xeE-yM-f8X">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="xeE-yM-f8X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -158,7 +139,7 @@
                             <inset key="sectionInset" minX="25" minY="25" maxX="25" maxY="25"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="cQ6-IS-VOi" customClass="FireCollectionViewCell" customModule="MyHualienTravel" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="cQ6-IS-VOi" customClass="ImageGalleryCell" customModule="MyHualienTravel" customModuleProvider="target">
                                 <rect key="frame" x="25" y="25" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -189,7 +170,25 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nBT-EF-lJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2178" y="124"/>
+            <point key="canvasLocation" x="4994.3999999999996" y="123.68815592203899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jll-5V-edi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EA3-do-Xj4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0bn-vi-VgO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6w7-De-zlu" kind="relationship" relationship="rootViewController" id="reH-HP-TPz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Urg-Pt-WY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3561" y="124"/>
         </scene>
     </scenes>
 </document>
