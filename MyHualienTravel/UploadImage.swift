@@ -7,14 +7,46 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseStorage
 import FirebaseDatabase
 
 class  UploadImage: UIViewController {
     
+    @IBOutlet weak var UserPhoto: UIImageView!
+    
+    @IBOutlet weak var NameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // 取的用戶基本資訊
+         Auth.auth().addStateDidChangeListener { (auth, user) in
+            
+            let user = Auth.auth().currentUser
+            
+            if let user = user {
+                
+                let photoURL = user.photoURL
+                let name = user.displayName
+            
+                // 加載Fb頭像
+                let URLdata = try? Data(contentsOf:  photoURL!)
+                self.UserPhoto.image = UIImage(data: URLdata!)!
+                
+                // 設置圓角
+                self.UserPhoto.layer.cornerRadius = 50
+                self.UserPhoto.clipsToBounds = true
+                                
+                // 設置陰影
+                self.UserPhoto.layer.shadowOpacity = 0.5 //不透明度
+                self.UserPhoto.layer.shadowOffset = CGSize(width: 0, height: 50) // 設置陰影的偏移量
+                self.UserPhoto.layer.shadowRadius = 50 //設置陰影所照射的範圍
+                
+                self.NameLabel.text = "Hi!  " + name!
+                
+            }
+        }
     }
     
     override func didReceiveMemoryWarning() {

@@ -7,18 +7,20 @@
 //
 
 import UIKit
-
 import Firebase
-
 import FBSDKLoginKit
-
 
 class FbLogIn: UIViewController {
     
+    
+    
+    @IBOutlet weak var LoadLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
     }
+    
     @IBAction func FbLoginBtn(_ sender: UIButton) {
         
         let fbLoginManager = FBSDKLoginManager()
@@ -49,6 +51,8 @@ class FbLogIn: UIViewController {
                     print((error?.localizedDescription)!)
                     return
                 }
+                
+                self.LoadLabel.text = "Welecome My Family."
                 
                 // 跳轉至GoUploadImage頁面
                 self.performSegue(withIdentifier: "GoUploadImage", sender: self)
