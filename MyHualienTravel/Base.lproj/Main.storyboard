@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Rdo-EX-bc8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fb Log In-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FbLogIn" customModule="MyHualienTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,176 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgb-FJ-fNn">
+                                <rect key="frame" x="16" y="302" width="343" height="62"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="C4H-Un-9Wi"/>
+                                    <constraint firstAttribute="height" constant="62" id="Ood-WQ-IjC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="FB Login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="FbLoginBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASK-GB-J5Z"/>
+                                    <action selector="FbLogoutBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dqu-4K-xXY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtd-r5-3fm">
+                                <rect key="frame" x="16" y="456" width="343" height="61"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="L2I-m2-tT7"/>
+                                    <constraint firstAttribute="width" constant="343" id="L70-IN-9xB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="FB Logout">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="FbLogoutBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="szu-wk-gaK"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jtd-r5-3fm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="153" id="ZZ9-iH-Db4"/>
+                            <constraint firstItem="Jtd-r5-3fm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ggu-kH-k4B"/>
+                            <constraint firstItem="Fgb-FJ-fNn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hVd-bY-5f0"/>
+                            <constraint firstItem="Fgb-FJ-fNn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lpt-MS-v80"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="qhn-WI-OVC"/>
+                    <connections>
+                        <segue destination="6w7-De-zlu" kind="show" identifier="GoUploadImage" id="rqq-mi-09Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="737" y="124"/>
+        </scene>
+        <!--Upload Image-->
+        <scene sceneID="Oc3-Hu-64z">
+            <objects>
+                <viewController id="6w7-De-zlu" customClass="UploadImage" customModule="MyHualienTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oUQ-Yk-nPX"/>
+                        <viewControllerLayoutGuide type="bottom" id="GFl-xd-XNv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l2a-Yw-nmS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGr-GQ-dZE">
+                                <rect key="frame" x="16" y="309" width="343" height="49"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="9ey-5M-hBF"/>
+                                    <constraint firstAttribute="width" constant="343" id="UF6-ff-UWx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="圖片集">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAd-8C-RGD">
+                                <rect key="frame" x="16" y="460" width="343" height="53"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="ZBR-oa-LrV"/>
+                                    <constraint firstAttribute="width" constant="343" id="cbd-Sf-40B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="上傳圖片">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qwa-QT-oOl" kind="show" id="sj2-WZ-A95"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JGr-GQ-dZE" firstAttribute="centerY" secondItem="l2a-Yw-nmS" secondAttribute="centerY" id="4xt-6K-lkk"/>
+                            <constraint firstItem="MAd-8C-RGD" firstAttribute="centerX" secondItem="l2a-Yw-nmS" secondAttribute="centerX" id="E4m-uI-8EX"/>
+                            <constraint firstItem="JGr-GQ-dZE" firstAttribute="centerX" secondItem="l2a-Yw-nmS" secondAttribute="centerX" id="rAy-oI-guQ"/>
+                            <constraint firstItem="MAd-8C-RGD" firstAttribute="centerY" secondItem="l2a-Yw-nmS" secondAttribute="centerY" constant="153" id="zR0-Kr-ezp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="r98-mD-Gm5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tv2-Il-kXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1464.8" y="123.68815592203899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BiQ-Hn-vjD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rdo-EX-bc8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FaL-dJ-2Ev">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gPI-mx-b5J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMf-m0-p53" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="124"/>
+        </scene>
+        <!--Image Gallery-->
+        <scene sceneID="dtO-8g-nQk">
+            <objects>
+                <collectionViewController id="Qwa-QT-oOl" customClass="ImageGallery" customModule="MyHualienTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="xeE-yM-f8X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="25" minimumInteritemSpacing="25" id="skW-Ym-lc2">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="25" minY="25" maxX="25" maxY="25"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="cQ6-IS-VOi" customClass="FireCollectionViewCell" customModule="MyHualienTravel" customModuleProvider="target">
+                                <rect key="frame" x="25" y="25" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-aj-kqp">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="EKu-aj-kqp" firstAttribute="leading" secondItem="cQ6-IS-VOi" secondAttribute="leading" id="0Pw-P3-Ya5"/>
+                                    <constraint firstItem="EKu-aj-kqp" firstAttribute="top" secondItem="cQ6-IS-VOi" secondAttribute="top" id="3x0-Ef-kU6"/>
+                                    <constraint firstAttribute="trailing" secondItem="EKu-aj-kqp" secondAttribute="trailing" id="chV-sH-zPN"/>
+                                    <constraint firstAttribute="bottom" secondItem="EKu-aj-kqp" secondAttribute="bottom" id="o6w-6L-7vn"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="fireImageView" destination="EKu-aj-kqp" id="kQh-Tf-cdY"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Qwa-QT-oOl" id="BVG-bE-mH0"/>
+                            <outlet property="delegate" destination="Qwa-QT-oOl" id="emK-9m-V2Z"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nBT-EF-lJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2178" y="124"/>
         </scene>
     </scenes>
 </document>

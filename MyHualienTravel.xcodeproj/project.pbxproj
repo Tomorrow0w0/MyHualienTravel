@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D59A9F931F6AD233B383A7DA /* Pods_MyHualienTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A94F2C136F01BA2412919 /* Pods_MyHualienTravel.framework */; };
+		E54F71A91FF68D070086F41D /* FbLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F71A81FF68D070086F41D /* FbLogIn.swift */; };
+		E561F13F1FF742A700C804B8 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561F13E1FF742A700C804B8 /* UploadImage.swift */; };
+		E5694DB71FF748220099FBE3 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5694DB61FF748220099FBE3 /* ImageGallery.swift */; };
 		E57EEA0C1FF6432D00498619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA0B1FF6432D00498619 /* AppDelegate.swift */; };
-		E57EEA0E1FF6432D00498619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA0D1FF6432D00498619 /* ViewController.swift */; };
 		E57EEA111FF6432D00498619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA0F1FF6432D00498619 /* Main.storyboard */; };
 		E57EEA131FF6432D00498619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA121FF6432D00498619 /* Assets.xcassets */; };
 		E57EEA161FF6432D00498619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */; };
 		E57EEA211FF6432D00498619 /* MyHualienTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA201FF6432D00498619 /* MyHualienTravelTests.swift */; };
 		E57EEA2C1FF6432E00498619 /* MyHualienTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */; };
+		E5F3AE631FF67CFA0034F63C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AE621FF67CFA0034F63C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F9292094C88F3EDA88AD98F /* Pods-MyHualienTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHualienTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel.release.xcconfig"; sourceTree = "<group>"; };
+		939173B6A6504E91B8E4975E /* Pods-MyHualienTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHualienTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4A94F2C136F01BA2412919 /* Pods_MyHualienTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHualienTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54F71A81FF68D070086F41D /* FbLogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbLogIn.swift; sourceTree = "<group>"; };
+		E561F13E1FF742A700C804B8 /* UploadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		E5694DB61FF748220099FBE3 /* ImageGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
 		E57EEA081FF6432D00498619 /* MyHualienTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHualienTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57EEA0B1FF6432D00498619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E57EEA0D1FF6432D00498619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E57EEA101FF6432D00498619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E57EEA121FF6432D00498619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E57EEA151FF6432D00498619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		E57EEA271FF6432D00498619 /* MyHualienTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHualienTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57EEA2B1FF6432D00498619 /* MyHualienTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHualienTravelUITests.swift; sourceTree = "<group>"; };
 		E57EEA2D1FF6432E00498619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3AE621FF67CFA0034F63C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59A9F931F6AD233B383A7DA /* Pods_MyHualienTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75997669C23C7BFDB4D5DF50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939173B6A6504E91B8E4975E /* Pods-MyHualienTravel.debug.xcconfig */,
+				8F9292094C88F3EDA88AD98F /* Pods-MyHualienTravel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CF48000B634BC6AF8880562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A94F2C136F01BA2412919 /* Pods_MyHualienTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E57EE9FF1FF6432D00498619 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				E57EEA1F1FF6432D00498619 /* MyHualienTravelTests */,
 				E57EEA2A1FF6432D00498619 /* MyHualienTravelUITests */,
 				E57EEA091FF6432D00498619 /* Products */,
+				75997669C23C7BFDB4D5DF50 /* Pods */,
+				8CF48000B634BC6AF8880562 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				E57EEA0B1FF6432D00498619 /* AppDelegate.swift */,
-				E57EEA0D1FF6432D00498619 /* ViewController.swift */,
+				E54F71A81FF68D070086F41D /* FbLogIn.swift */,
+				E561F13E1FF742A700C804B8 /* UploadImage.swift */,
+				E5694DB61FF748220099FBE3 /* ImageGallery.swift */,
 				E57EEA0F1FF6432D00498619 /* Main.storyboard */,
 				E57EEA121FF6432D00498619 /* Assets.xcassets */,
 				E57EEA141FF6432D00498619 /* LaunchScreen.storyboard */,
 				E57EEA171FF6432D00498619 /* Info.plist */,
+				E5F3AE621FF67CFA0034F63C /* GoogleService-Info.plist */,
 			);
 			path = MyHualienTravel;
 			sourceTree = "<group>";
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E57EEA301FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravel" */;
 			buildPhases = (
+				E9C2B5EF389A17E23A786FB8 /* [CP] Check Pods Manifest.lock */,
 				E57EEA041FF6432D00498619 /* Sources */,
 				E57EEA051FF6432D00498619 /* Frameworks */,
 				E57EEA061FF6432D00498619 /* Resources */,
+				65BA56A8365850E9367C435B /* [CP] Embed Pods Frameworks */,
+				D31C9FAA063CC68BDF69C1E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E57EEA161FF6432D00498619 /* LaunchScreen.storyboard in Resources */,
+				E5F3AE631FF67CFA0034F63C /* GoogleService-Info.plist in Resources */,
 				E57EEA131FF6432D00498619 /* Assets.xcassets in Resources */,
 				E57EEA111FF6432D00498619 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +291,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65BA56A8365850E9367C435B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31C9FAA063CC68BDF69C1E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyHualienTravel/Pods-MyHualienTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C2B5EF389A17E23A786FB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHualienTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E57EEA041FF6432D00498619 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57EEA0E1FF6432D00498619 /* ViewController.swift in Sources */,
+				E561F13F1FF742A700C804B8 /* UploadImage.swift in Sources */,
+				E5694DB71FF748220099FBE3 /* ImageGallery.swift in Sources */,
 				E57EEA0C1FF6432D00498619 /* AppDelegate.swift in Sources */,
+				E54F71A91FF68D070086F41D /* FbLogIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +517,7 @@
 		};
 		E57EEA311FF6432E00498619 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939173B6A6504E91B8E4975E /* Pods-MyHualienTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyHualienTravel/Info.plist;
@@ -424,6 +530,7 @@
 		};
 		E57EEA321FF6432E00498619 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9292094C88F3EDA88AD98F /* Pods-MyHualienTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyHualienTravel/Info.plist;
@@ -507,6 +614,7 @@
 				E57EEA321FF6432E00498619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E57EEA331FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +623,7 @@
 				E57EEA351FF6432E00498619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E57EEA361FF6432E00498619 /* Build configuration list for PBXNativeTarget "MyHualienTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +632,7 @@
 				E57EEA381FF6432E00498619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
