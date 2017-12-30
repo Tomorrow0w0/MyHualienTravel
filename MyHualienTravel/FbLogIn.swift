@@ -66,12 +66,39 @@ class FbLogIn: UIViewController {
         
     }
     
-    
     @IBAction func FbLogoutBtn(_ sender: UIButton) {
         
-         FBSDKLoginManager().logOut()
-        // 使用FB登出
-        print("使用FB登出")
+         // FBSDKLoginManager().logOut()
+        
+        do {
+            try Auth.auth().signOut()
+            
+            // 建立一個提示框
+            let alertController = UIAlertController(
+                title: "FaceBook",
+                message: "登出",
+                preferredStyle: .alert)
+            
+            // 建立[確認]按鈕
+            let okAction = UIAlertAction(
+                title: "確認",
+                style: .default,
+                handler: {
+                    (action: UIAlertAction!) -> Void in
+            })
+            
+            alertController.addAction(okAction)
+            
+            // 顯示提示框
+            self.present(alertController, animated: true, completion: nil)
+            
+            // 使用FB登出
+            print("使用FB登出")
+            
+        } catch let error {
+            // error here
+            print("Error trying to sign out of Firebase: \(error.localizedDescription)")
+        }
         
     }
     
