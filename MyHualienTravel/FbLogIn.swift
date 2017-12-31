@@ -18,7 +18,14 @@ class FbLogIn: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
+        // Label 換行
+        LoadLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+        
+        LoadLabel.numberOfLines = 0
+        
+        self.LoadLabel.text = "花蓮之旅\n 2017/11/19~22"
+        
     }
     
     @IBAction func FbLoginBtn(_ sender: UIButton) {

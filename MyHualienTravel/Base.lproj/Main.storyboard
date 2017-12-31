@@ -53,9 +53,9 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KH1-84-CNz">
-                                <rect key="frame" x="16" y="190" width="343" height="62"/>
+                                <rect key="frame" x="16" y="190" width="343" height="82"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="HqZ-29-aSz"/>
+                                    <constraint firstAttribute="height" constant="82" id="HqZ-29-aSz"/>
                                     <constraint firstAttribute="width" constant="343" id="Lho-md-IBh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -70,7 +70,7 @@
                             <constraint firstItem="Jtd-r5-3fm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ggu-kH-k4B"/>
                             <constraint firstItem="Fgb-FJ-fNn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="110.5" id="hVd-bY-5f0"/>
                             <constraint firstItem="Fgb-FJ-fNn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lpt-MS-v80"/>
-                            <constraint firstItem="KH1-84-CNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-112.5" id="oeE-UU-OYl"/>
+                            <constraint firstItem="KH1-84-CNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-102.5" id="oeE-UU-OYl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ujv-cK-oaw"/>
@@ -163,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tv2-Il-kXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5221.6000000000004" y="123.68815592203899"/>
+            <point key="canvasLocation" x="5009" y="124"/>
         </scene>
         <!--Image Gallery-->
         <scene sceneID="dtO-8g-nQk">
@@ -174,21 +174,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="25" minimumInteritemSpacing="25" id="skW-Ym-lc2">
-                            <size key="itemSize" width="320" height="180"/>
+                            <size key="itemSize" width="320" height="185"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="25" minY="25" maxX="25" maxY="25"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="cQ6-IS-VOi" customClass="ImageGalleryCell" customModule="MyHualienTravel" customModuleProvider="target">
-                                <rect key="frame" x="27.5" y="25" width="320" height="180"/>
+                                <rect key="frame" x="27.5" y="25" width="320" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-aj-kqp">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
                                         </imageView>
                                     </subviews>
                                 </view>
@@ -211,7 +211,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nBT-EF-lJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5933.6000000000004" y="123.68815592203899"/>
+            <point key="canvasLocation" x="5695" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="boS-LR-e5D">
@@ -229,7 +229,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKd-Qr-obu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3381.5999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="3660" y="124"/>
         </scene>
     </scenes>
 </document>
